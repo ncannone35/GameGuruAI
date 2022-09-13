@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".game.GameFragment">
+
+    <ImageView
+        android:id="@+id/board"
+        android:layout_width="381dp"
+        android:layout_height="415dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="28dp"
+        android:contentDescription="TODO"
+        android:src="@drawable/tic_tac_toe_board"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/box_1"
+        android:layout_width="99dp"
+        android:layout_height="97dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="28dp"
+        android:textAlignment="center"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/box_2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/box_2"
+        android:layout_width="99dp"
+        android:layout_height="97dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="28dp"
+        android:textAlignment="center"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        app:layout_constraintEnd_toStartOf="@+id/box_3"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/box_3"
+        android:layout_width="99dp"
+        android:layout_height="97dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="28dp"
+        android:textAlignment="center"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/box_4"
+        android:layout_width="99dp"
+        android:layout_height="97dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="28dp"
+        android:textAlignment="center"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/box_5"
+        app:layout_constraintTop_toBottomOf="@+id/box_1" />
+
+    <TextView
+        android:id="@+id/box_5"
+        android:layout_width="99dp"
+        android:layout_height="97dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="32dp"
+        android:textAlignment="center"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/box_6"
+        app:layout_constraintTop_toBottomOf="@+id/box_2" />
+
+    <TextView
+        android:id="@+id/box_6"
+        android:layout_width="99dp"
+        android:layout_height="97dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="12dp"
+        android:textAlignment="center"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/board"
+        app:layout_constraintTop_toBottomOf="@+id/box_3" />
+
+    <TextView
+        android:id="@+id/box_7"
+        android:layout_width="99dp"
+        android:layout_height="97dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="32dp"
+        android:textAlignment="center"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/box_4" />
+
+    <TextView
+        android:id="@+id/box_8"
+        android:layout_width="99dp"
+        android:layout_height="97dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="32dp"
+        android:textAlignment="center"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/box_7"
+        app:layout_constraintTop_toBottomOf="@+id/box_5" />
+
+    <TextView
+        android:id="@+id/box_9"
+        android:layout_width="99dp"
+        android:layout_height="97dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="32dp"
+        android:textAlignment="center"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/box_8"
+        app:layout_constraintTop_toBottomOf="@+id/box_6" />
+</androidx.constraintlayout.widget.ConstraintLayout>
