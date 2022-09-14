@@ -2,4 +2,17 @@
     <string name="app_name">TicTacToe</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="new_game">New Game</string>
+    <string name="title_activity_lose">LoseActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="tic_tac_toe">Tic Tac Toe</string>
+    <string name="minimax_edition">Minimax Edition</string>
+    <string name="game_over">Game Over</string>
 </resources>
